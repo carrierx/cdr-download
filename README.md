@@ -35,6 +35,9 @@ Open a terminal in the project root and run:
 
 ```shell
 cd python
+# Next two commands recommended, but not strictly required
+python3 -m venv ./venv
+source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
